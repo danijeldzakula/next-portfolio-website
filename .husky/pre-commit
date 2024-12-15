@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run code (ESLint) before add code to version control (git, bitbucket, gitlab)
+pnpm eslint .

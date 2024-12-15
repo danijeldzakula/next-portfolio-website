@@ -1,7 +1,24 @@
-import type { NextConfig } from "next";
+const hasProd = process.env.NODE_ENV === 'production' ? false : true;
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+    dirs: ['src'],
+    ignoreDuringBuilds: true,
+  },
+  compiler: {
+    removeConsole: !hasProd ? { exclude: ['error'] } : false,
+  },
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        port: '',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
