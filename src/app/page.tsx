@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Container, Section } from '@/components/content';
 
 export default function Home() {
