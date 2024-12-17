@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Danijel",
+    "email": "danijel@gmail.com",
+    "address": "Plitvicka Ulica 18a",
+    "role": "Admin"
+  },
+  {
+    "id": 2,
+    "name": "Livada",
+    "email": "livada@gmail.com",
+    "address": "Plitvicka Ulica 18a",
+    "role": "Super Admin"
+  },
+  {
+    "id": 3,
+    "name": "Tijana",
+    "email": "tijana@gmail.com",
+    "address": "Ustanicka 18a",
+    "role": "Super Admin"
+  },
+  {
+    "id": 4,
+    "name": "Miljana",
+    "email": "miljana@gmail.com",
+    "address": "Trg Republike 18a",
+    "role": "Admin"
+  }
+]
