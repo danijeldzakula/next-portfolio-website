@@ -26,5 +26,12 @@
     "email": "miljana@gmail.com",
     "address": "Trg Republike 18a",
     "role": "Admin"
+  },
+  {
+    "id": 5,
+    "name": "Nikola",
+    "email": "nikola@gmail.com",
+    "address": "Bajnatska 15",
+    "role": "User"
   }
 ]
