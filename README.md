@@ -80,6 +80,23 @@ Here's an overview of the project structure:
   - utils
 ```
 
+
+## Commit message types
+
+`feat`: 🚀 New functionality.
+
+`fix`: 🐛 Bug fix.
+
+`chore`: 🧹 Maintenance, minor changes that do not affect the code.
+
+`docs`: 📚 Changes in documentation.
+
+`style`: 🎨 Changes that do not affect logic (e.g., formatting).
+
+`refactor`: 🛠️ Changes to the code that do not add new functionality or fixes.
+
+`test`: ✅ Adding or modifying tests.
+
 ## Development Rules
 
 ### File Naming
